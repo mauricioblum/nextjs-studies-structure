@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import NetflixLogo from '../assets/netflix-logo.svg'
+
 const Home: React.FC = () => {
   return (
     <div>
@@ -9,6 +11,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
+        <NetflixLogo />
         <h1>Hello world!!</h1>
       </main>
 
